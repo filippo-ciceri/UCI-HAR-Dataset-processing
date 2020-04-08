@@ -7,8 +7,10 @@ output: html_document
 
 ## Code book
 
-Dataset1.txt contains the mean and standard deviation values for all the parameters in the UCI HAR test and train dataset. Activities are reported as descriptive names, repeated columns have been removed.
-
-Dataset2.txt contains the mean values calculated after grouping by Subject ID and activity the repeated measurements in dataset1 above.
+final.txt contains the mean and standard deviation values for all the parameters in the UCI HAR test and train dataset. Mean for multiple repeated measures have been calculated after grouping by Subject ID and activity.
 
 For any additional information of features and activities please refer to the codebook of the UCI HAR dataset.
+
+Raw data obtained from:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip

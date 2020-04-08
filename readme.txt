@@ -1,6 +1,6 @@
-The code is written to be executed within the folder at the same level of the folder
-containing the raw data files (named "UCI HAR Dataset"), otherwise the relative paths
-to the raw data files won't work.
+The code download in the working directory the raw data from 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The first step is loading the dplyr library, then reading the tables with features and activities.
 
